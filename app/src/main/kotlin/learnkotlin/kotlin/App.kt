@@ -13,6 +13,6 @@ kotlin
 
 fun main() {
     val name = "NekoIceCream"
-    println("Hello! My Name Is "name)
+    println("Hello! My Name Is "(name))
     print(if (true) "Always true" else "Always false")
 }
