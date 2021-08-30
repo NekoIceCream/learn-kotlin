@@ -11,6 +11,7 @@ class App {
         get() {
             return "Hello"
 }
+}
 
 fun main() {
     val name = "NekoIceCream"
