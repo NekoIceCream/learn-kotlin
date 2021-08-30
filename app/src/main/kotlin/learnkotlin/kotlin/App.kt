@@ -9,13 +9,13 @@ package learnkotlin.kotlin
 class App {
     val greeting: String
         get() {
-            return "Hello "
+            return "Hello"
 }
 }
 
 fun main() {
-    val name = "NekoIceCream"
+    val name = "NekoIceCream "
     println(App().greeting)
-    print(name)
+    println(name)
     print(if (true) "Always true" else "Always false")
 }
