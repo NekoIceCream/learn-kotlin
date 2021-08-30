@@ -3,12 +3,6 @@
  */
 package learnkotlin.kotlin
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
-}
 // main function
 
 /*
@@ -19,7 +13,6 @@ kotlin
 
 fun main() {
     val name = "NekoIceCream"
-    println(App().greeting)
-    println(name)
+    println("Hello! My Name Is "name)
     print(if (true) "Always true" else "Always false")
 }
