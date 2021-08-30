@@ -6,17 +6,18 @@
 
 package learnkotlin.kotlin
 
-class App {
+class App 
+{
     val greeting: String
         get() {
             return "Hello "
-}
+    }
 }
 
-fun main() {
+fun main() 
+{
     val name = "NekoIceCream "
     print(App().greeting)
     print(name)
     println(if (true) "Always true" else "Always false")
-}
 }
