@@ -16,7 +16,16 @@ class App
 
 fun main() 
 {
+    var vocal = 'A'
     val name = "NekoIceCream "
+    println("Vocal " + vocal++)
+    println("Vocal " + vocal++)
+    println("Vocal " + vocal++)
+    println("Vocal " + vocal--)
+    println("Vocal " + vocal--)
+    println("Vocal " + vocal--)
+    println("Vocal " + vocal--)
+    
     print(App().greeting)
     print(name)
     println(if (true) "Always true" else "Always false")
