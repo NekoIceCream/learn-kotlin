@@ -16,6 +16,6 @@ class App {
 fun main() {
     val name = "NekoIceCream "
     println(App().greeting)
-    println(name)
-    print(if (true) "Always true" else "Always false")
+    print(name)
+    println(if (true) "Always true" else "Always false")
 }
