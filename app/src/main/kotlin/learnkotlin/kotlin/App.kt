@@ -9,7 +9,17 @@ class App {
             return "Hello World!"
         }
 }
+// main function
+
+/*
+hello
+i love
+kotlin
+*/
 
 fun main() {
+    val name = "NekoIceCream"
     println(App().greeting)
+    println(name)
+    print(if (true) "Always true" else "Always false")
 }
