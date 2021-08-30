@@ -9,7 +9,7 @@ package learnkotlin.kotlin
 class App {
     val greeting: String
         get() {
-            return "Hello"
+            return "Hello "
 }
 }
 
@@ -18,4 +18,5 @@ fun main() {
     print(App().greeting)
     print(name)
     println(if (true) "Always true" else "Always false")
+}
 }
